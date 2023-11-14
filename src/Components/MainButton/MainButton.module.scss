@@ -1,0 +1,16 @@
+.mainButton {
+  background-color: #4E74F5;
+  border-radius: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+
+}
+
+.mainButton:hover {
+  opacity: 0.8;
+}

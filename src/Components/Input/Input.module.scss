@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+
+  .input {
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+
+    &_error {
+      border: 1px solid #F90043;
+    }
+  }
+
+  .input::placeholder {
+    color: #E6E6E6;
+    opacity: 1;
+  }
+
+  .input:focus {
+    outline: none;
+    border: 1px solid #4E74F5;
+  }
+
+}

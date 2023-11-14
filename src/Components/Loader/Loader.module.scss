@@ -1,0 +1,22 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .body__loader {
+    animation: spin 1s linear infinite;
+  }
+
+  .body__text {
+    margin-left: 16px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
